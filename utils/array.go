@@ -31,3 +31,14 @@ func Reverse[T any](arr []T) []T {
 
 	return result
 }
+
+func Filter[T any](arr []T, fn func(T) bool) []T {
+	var result []T
+
+	for _, value := range arr {
+		if fn(value) {
+			result = append(result, value)
+		}
+	}
+	return result
+}
