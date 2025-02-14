@@ -5,7 +5,7 @@ Uma coleção de funções utilitárias para manipulação de slices em Go.
 ## Instalação
 
 ```sh
-go get github.com/seu-usuario/utils
+go get github.com/italanleal/go-array-utils
 ```
 
 ## Uso
