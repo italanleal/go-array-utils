@@ -17,7 +17,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/seu-usuario/utils"
+	"github.com/italanleal/go-array-utils"
 )
 
 func main() {
